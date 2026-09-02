@@ -10,8 +10,6 @@ Three physical versions so far. The current build accelerates a **54.63 g** ferr
 
 ## ⚠️ Safety
 
-This project stores roughly **105 joules** across its capacitor bank at 400 V. That is comfortably enough to kill a person, and capacitors hold charge long after the supply is disconnected.
-
 This repository is published as engineering documentation, not as a build guide. If you are not already comfortable working with high-voltage energy storage — bleeder resistors, discharge procedure, isolation between logic and the HV side — do not attempt to reproduce it.
 
 ---
