@@ -2,7 +2,7 @@
 
 Stage-control firmware for a two-stage electromagnetic accelerator (coil gun) I have been designing, building, and rebuilding since 2022.
 
-Three physical versions so far. The current build accelerates a **54.63 g** ferrous projectile to roughly **16 m/s** using four 400 V / 330 µF capacitors, with coil timing derived from ANSYS Maxwell 2D simulation rather than guesswork.
+Three physical versions so far. The current build accelerates a **54.63 g** ferrous projectile to roughly **11 m/s** using four 400 V / 330 µF capacitors, with coil timing derived from ANSYS Maxwell 2D simulation rather than guesswork.
 
 📖 **Full case study with photos, simulation captures, and video → [someheresy.github.io](https://someheresy.github.io/projects/electromagnetic-accelerator.html)**
 
@@ -18,7 +18,7 @@ This repository is published as engineering documentation, not as a build guide.
 
 | Metric | Value |
 |---|---|
-| Projectile velocity | ~16 m/s |
+| Projectile velocity | ~11 m/s |
 | Projectile mass | 54.63 g |
 | Capacitor bank | 4 × 400 V / 330 µF (≈105 J) |
 | Stages | 2, sequential |
@@ -81,7 +81,7 @@ Timing is **open loop**. Rather than sensing the projectile in flight, the delay
 |---|---|---|
 | **V1** (2022) | Single stage, 550 V | Established the basic charge–fire–measure loop |
 | **V2** | Two-stage architecture, sensing experiments | Photoelectric timing tested and abandoned |
-| **V3** | Functional two-stage, simulation-informed timing | ~16 m/s, mechanically repeatable |
+| **V3** | Functional two-stage, simulation-informed timing | ~11 m/s, mechanically repeatable |
 
 | | |
 |---|---|
